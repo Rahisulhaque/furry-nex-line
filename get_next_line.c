@@ -12,7 +12,7 @@
 
 #include "get_next_line.h"
 
-static int	ft_read(const int fd, char **s, char **line)
+static int	ft_read(const int fd, char **s)
 {
 	char	buf[BUFF_SIZE + 1];
 	char	*tmp;
